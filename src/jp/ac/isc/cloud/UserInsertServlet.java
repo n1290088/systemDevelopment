@@ -27,7 +27,7 @@ public class UserInsertServlet extends HttpServlet {
 			users.close();*/
 			response.sendRedirect("/select"); //UserSelectServletを呼び出す
 			/*}catch(ClassNotFoundException e) {
-			e.printStackTrace();
+			e.printStackTrace();ghbkbk
 			}*/
 		}catch(SQLException e){
 			e.printStackTrace();
